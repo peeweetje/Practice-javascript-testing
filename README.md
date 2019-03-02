@@ -1,1 +1,1 @@
-# Pratice-javascript-testing
+# Practice-javascript-testing
