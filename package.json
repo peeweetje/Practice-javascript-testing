@@ -1,0 +1,13 @@
+{
+  "name": "Practice-javascript-testing",
+  "version": "1.0.0",
+  "repository": "git@github.com:peeweetje/Practice-javascript-testing.git",
+  "author": "Petra Vos <petravos70@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
