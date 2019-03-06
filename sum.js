@@ -15,30 +15,6 @@ test("subtract numbers", () => {
   expect(result).toBe(expected);
 });
 
-//  A function takes an actual value and
-// return an object that has functions
-// for different assertions that we can make
-// on that actual value
-function expect(actual) {
-  return {
-    toBe(expected) {
-      if (actual !== expected) {
-        throw new Error(`${actual} is not equal to ${expected}`);
-      }
-    }
-  };
-}
-
-function test(title, callback) {
-  try {
-    callback();
-    console.log(`v ${title}`);
-  } catch (error) {
-    console.error(`x ${title}`);
-    console.error(error);
-  }
-}
-
 // these are not required , but it's just to simulate an async function
 const sumAsync = (...args) => Promise.resolve(sum(...args));
 const subtractAsync = (...args) => Promise.resolve(subtract(...args));
