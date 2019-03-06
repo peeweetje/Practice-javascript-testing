@@ -15,9 +15,9 @@ function expect(actual) {
 async function test(title, callback) {
   try {
     await callback();
-    console.log(`v ${title}`);
+    console.log(`✓ ${title}`);
   } catch (error) {
-    console.error(`x ${title}`);
+    console.error(`✕ ${title}`);
     console.error(error);
   }
 }
