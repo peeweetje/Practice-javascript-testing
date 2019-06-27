@@ -3,4 +3,4 @@
 
 ## Getting Started with cypress
 
->* npm cypress open
+>* npx cypress open
